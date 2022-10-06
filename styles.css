@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px
+}
+.calulator-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: black;
+    border: black, 1px solid;
+    padding: 10px;
+}
+
+.input-calc {
+    display: flex;
+    justify-content: center;
+}
+
+.input-field {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    height: 100px;
+    width:100%;
+}
+
+.btn-firstrow-button-container,.btn-secondrow-container,.btn-thirdrow-container, .btn-fourthrow-container, .btn-fifthrow-container {
+    display: flex;
+    justify-content: center;
+    
+}
+    
+.btn-maths-symbols {
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    height: 40px;
+    width: 40px;
+    
+}
+.btn-symbols {
+    background-color: darkgray;
+    border-radius: 50%;
+    border: none;
+    height: 40px;
+    width: 40px;
+   
+}
+.btn-numbers,.btn-zero {
+    color: white;
+    background-color: dimgrey;
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    
+}
+.btn-zero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 12px;
+    width: 86px;
+    border-radius: 20px;
+    border: none;
+}
+
+button {
+    font-size: 22px;
+    margin: 6px;
+}
+    
+
+
+
